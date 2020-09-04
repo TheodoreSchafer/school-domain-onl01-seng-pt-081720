@@ -10,14 +10,14 @@ class School
     @roster << name
   end
 
-  def grade(num)
-    @roster[num]
+  def grade(number)
+    @roster[number]
   end
 
   def sort
     hash = {}
-    @roster.keys.sort.each do |num|
-      hash[num] = @roster[num].sort
+    @roster.keys.sort.each do |number|
+      hash[number] = @roster[number].sort
     end
     hash
   end

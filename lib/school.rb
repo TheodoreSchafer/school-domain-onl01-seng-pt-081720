@@ -10,5 +10,11 @@ class School
     @roster << name
   end
 
+  def grade(num)
+    @roster[num]
+  end
+
+  def sort
+
 
 end
